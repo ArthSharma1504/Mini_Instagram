@@ -12,7 +12,7 @@ const SECRET_KEY = 'your-secret-key-change-in-production';
 // Replace the cors line with:
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
-    ? 'https://your-frontend-url.vercel.app' 
+    ? 'https://mini-instagram-1-bq6g.onrender.com/' 
     : 'http://localhost:5173',
   credentials: true
 }));
